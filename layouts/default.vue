@@ -1,7 +1,5 @@
 <template>
-  <div class="min-h-screen">
-    <div class="m-24 flex flex-col font-sans">
-      <slot />
-    </div>
+  <div class="flex min-h-screen flex-col p-24 font-sans">
+    <slot />
   </div>
 </template>
