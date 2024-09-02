@@ -2,7 +2,9 @@
   <NuxtLayout>
     <GenericHeader />
 
-    <NuxtPage />
+    <NuxtPage class="flex-1" />
+
+    <GenericFooter />
   </NuxtLayout>
 </template>
 

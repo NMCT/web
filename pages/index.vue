@@ -1,7 +1,9 @@
 <template>
   <div class="grid grid-cols-2 gap-24">
-    <section>
-      <h1 class="mb-6 text-7xl font-semibold">Impact door future tech & IT</h1>
+    <section class="flex flex-col justify-center">
+      <h1 class="mb-6 text-7xl font-semibold">
+        Impact door future tech&nbsp;&&nbsp;IT
+      </h1>
 
       <p class="max-w-prose text-lg leading-loose">
         Ben je gebeten door informatica en innovatie en wil je impact creëren op
@@ -12,5 +14,7 @@
         het lijf geschreven.
       </p>
     </section>
+
+    <img src="/placeholder.jpg" alt="Cutting edge IT opleiding" >
   </div>
 </template>
