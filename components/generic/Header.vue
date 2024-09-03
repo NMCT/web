@@ -1,6 +1,6 @@
 <template>
-  <div class="mb-24 flex items-center justify-between">
-    <NuxtLink to="/">
+  <div class="grid grid-cols-12 items-center gap-6 p-24">
+    <NuxtLink to="/" class="col-span-9">
       <GenericLogo class="h-7" />
     </NuxtLink>
 
