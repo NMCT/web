@@ -1,7 +1,7 @@
 <template>
   <div>
     <div class="grid grid-cols-12 items-center gap-6 px-24">
-      <section class="col-span-10 pb-24">
+      <section class="col-span-10 pb-48 pt-24">
         <h1 class="mb-6 text-7xl font-semibold">
           Impact door future tech&nbsp;&&nbsp;IT
         </h1>
@@ -35,7 +35,7 @@
       alt="Cutting edge IT opleiding"
     >
 
-    <section class="grid grid-cols-12 gap-6 p-24">
+    <section class="grid grid-cols-12 gap-6 px-24 py-96">
       <div class="col-span-11 col-start-2">
         <h2 class="mb-6 text-5xl font-medium">Eén duidelijk doel: impact</h2>
 
