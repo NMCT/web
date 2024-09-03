@@ -3,8 +3,9 @@
     <ContentDoc v-slot="{ doc }">
       <article>
         <h1 class="mb-6 text-5xl font-medium">{{ doc.title }}</h1>
+
         <ContentRenderer
-          class="max-w-prose text-lg leading-relaxed"
+          class="max-w-prose text-lg leading-loose"
           :value="doc"
         />
       </article>

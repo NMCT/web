@@ -10,6 +10,8 @@ export default defineNuxtConfig({
     viewTransition: true,
   },
 
+  css: ['@unocss/reset/tailwind.css'],
+
   typescript: {
     strict: true,
   },
