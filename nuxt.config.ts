@@ -14,7 +14,7 @@ export default defineNuxtConfig({
     strict: true,
   },
 
-  modules: ['@nuxt/eslint', '@unocss/nuxt', '@nuxt/fonts'],
+  modules: ['@nuxt/eslint', '@unocss/nuxt', '@nuxt/fonts', '@nuxt/content'],
 
   eslint: {
     config: {

@@ -1,0 +1,15 @@
+<template>
+  <main>
+    <ContentDoc v-slot="{ doc }">
+      <article>
+        <h1 class="mb-6 text-5xl font-medium">{{ doc.title }}</h1>
+        <ContentRenderer
+          class="max-w-prose text-lg leading-relaxed"
+          :value="doc"
+        />
+      </article>
+    </ContentDoc>
+  </main>
+</template>
+
+<script lang="ts" setup></script>

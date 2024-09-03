@@ -5,7 +5,7 @@
         <RouterLink class="hover:opacity-60" to="/">Home</RouterLink>
       </li>
       <li>
-        <RouterLink class="hover:opacity-60" to="/curriculum">
+        <RouterLink class="hover:opacity-60" to="/programma">
           Programma
         </RouterLink>
       </li>
