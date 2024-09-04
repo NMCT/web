@@ -63,7 +63,9 @@
 
     <div class="bg-neutral-800 px-24 py-48 text-neutral-50">
       <section class="grid grid-cols-12 gap-6">
-        <p class="col-span-12 font-mono">✌️ Twee belangrijke aspecten</p>
+        <p class="col-span-6 col-start-6 mb-3 font-mono">
+          ✌️ Twee belangrijke aspecten
+        </p>
 
         <div class="col-span-6">
           <h2 class="text-4xl font-bold">Cutting edge</h2>
@@ -104,7 +106,7 @@
     </section>
 
     <section class="grid grid-cols-12 gap-6 px-24 pb-52 pt-24">
-      <div class="col-span-4">
+      <div class="col-span-3">
         <h3 class="mb-6 text-lg font-bold">
           🔮 Studenten = toekomstige collega’s
         </h3>
@@ -114,7 +116,7 @@
           of via mail. Ja, we weten hoe iedereen heet en waar je sterk in bent!
         </p>
       </div>
-      <div class="col-span-4">
+      <div class="col-span-3 col-start-5">
         <h3 class="mb-6 text-lg font-bold">⚖️ Praktijk vs theorie</h3>
         <p class="max-w-prose text-lg leading-loose">
           Theorie is belangrijk...! Om de praktijk goed uit te voeren. We willen
@@ -122,7 +124,7 @@
           praktijkgerichte labo’s.
         </p>
       </div>
-      <div class="col-span-4">
+      <div class="col-span-3 col-start-9">
         <h3 class="mb-6 text-lg font-bold">
           📈 Ons rapport. Joepie, goede punten!
         </h3>
@@ -132,6 +134,29 @@
           gaan iedere dag aan de slag om de beste IT’ers op de markte zetten!
         </p>
       </div>
+    </section>
+
+    <section
+      class="relative grid grid-cols-12 gap-6 overflow-hidden bg-neutral-100 px-24 pb-32 pt-32"
+    >
+      <!-- Giant globe -->
+      <div
+        class="ratio-1 absolute -right-[10vw] -top-6 z-0 h-[50vh] w-[50vh] rounded-full bg-neutral-300 bg-gradient-to-br from-neutral-50 to-neutral-950 shadow-2xl"
+      />
+
+      <h2
+        class="relative z-10 col-span-11 col-start-2 mb-6 text-5xl font-medium"
+      >
+        Internationaal
+      </h2>
+      <p
+        class="relative z-10 col-span-11 col-start-2 max-w-prose text-lg leading-loose"
+      >
+        We zijn trots op onze internationale samenwerkingen. We werken samen met
+        bedrijven en scholen over de hele wereld. We organiseren internationale
+        projecten en stages. We zijn er van overtuigd dat je door samen te
+        werken met mensen van over de hele wereld, je een betere IT’er wordt.
+      </p>
     </section>
   </div>
 </template>

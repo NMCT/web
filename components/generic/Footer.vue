@@ -1,6 +1,6 @@
 <template>
   <footer class="grid grid-cols-12 p-24">
-    <div class="col-span-3 text-neutral-600">
+    <div class="col-span-9 text-neutral-600">
       <p class="font-bold">
         Multimedia & creative technologies - &copy;
         {{ new Date().getFullYear() }}
