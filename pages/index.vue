@@ -21,11 +21,9 @@
         </div>
       </section>
 
-      <div
-        class="col-span-2 font-mono text-sm leading-relaxed tracking-wide text-neutral-700"
-      >
-        <p>Bachelor IT-opleiding</p>
-        <p>Kortrijk</p>
+      <div class="col-span-2 font-mono text-sm leading-relaxed tracking-wide">
+        <p class="text-neutral-950">Bachelor IT-opleiding</p>
+        <p class="text-neutral-500">Kortrijk</p>
       </div>
     </div>
 
@@ -35,8 +33,8 @@
       alt="Cutting edge IT opleiding"
     >
 
-    <section class="grid grid-cols-12 gap-6 px-24 py-96">
-      <div class="col-span-11 col-start-2">
+    <section class="grid grid-cols-12 gap-6 px-24 pb-52 pt-52">
+      <div class="col-span-11 col-start-2 mb-12">
         <h2 class="mb-6 text-5xl font-medium">Eén duidelijk doel: impact</h2>
 
         <p class="max-w-prose text-lg leading-loose">
@@ -66,5 +64,12 @@
         </p>
       </div>
     </section>
+
+    <div class="bg-neutral-800 px-24 py-48 text-neutral-50">
+      <section class="grid grid-cols-12 gap-6">
+        <h2>Cutting edge</h2>
+        <h2>Projecten</h2>
+      </section>
+    </div>
   </div>
 </template>
