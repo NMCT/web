@@ -8,8 +8,8 @@
       <p class="">Make cool shit.</p>
     </div>
 
-    <div class="col-span-2 col-start-10">
-      <p class="text-lg text-neutral-600">
+    <div class="col-span-3 col-start-10">
+      <p class="font-medium text-neutral-700">
         Door nieuwe technologie een impact hebben op jouw directe omgeving?
       </p>
     </div>
