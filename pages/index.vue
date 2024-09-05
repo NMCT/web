@@ -84,7 +84,7 @@
 
           <p class="max-w-prose text-lg leading-loose">
             Door een goede opbouw van verschillende projecten doorheen je
-            opleoding, leren we je aan de slag gaan. Met echte klanten, reallife
+            opleiding, leren we je aan de slag gaan. Met echte klanten, reallife
             scenarios en goede begeleiding, gaat de stap naar het werkveld als
             vanzelf.
           </p>
@@ -141,7 +141,7 @@
     >
       <!-- Giant globe -->
       <div
-        class="ratio-1 absolute -right-[10vw] -top-6 z-0 h-[50vh] w-[50vh] rounded-full bg-neutral-300 bg-gradient-to-br from-neutral-50 to-neutral-950 shadow-2xl"
+        class="ratio-1 absolute -right-[10vw] -top-6 z-0 h-[50vh] w-[50vh] rounded-full bg-gradient-to-br from-white via-neutral-100 to-neutral-400 shadow-2xl"
       />
 
       <h2

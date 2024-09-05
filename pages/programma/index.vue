@@ -1,10 +1,20 @@
 <template>
   <div>
-    <div class="px-24 pb-12">
-      <h1 class="mb-6 text-7xl font-semibold">Curriculum</h1>
-      <p class="max-w-prose text-lg leading-loose">Shit you'll learn.</p>
-    </div>
-
+    <GenericHeroText title="Een les-aanbod met focus. Vol innovatie.">
+      <template #text>
+        <p>
+          We kiezen resoluut voor een aanbod met focus. We kiezen voor een
+          beperkt aantal modules per semester zodat je de ruimte krijgt om je
+          voldoende te focussen en te verdiepen op de kern. Alle modules worden
+          geregeld geupdate in samenspraak met het werkveld, dat heb je als je
+          steeds de meest innovatieve wil zijn...
+        </p>
+      </template>
+      <template #floating>
+        <p class="text-neutral-950">5 pijlers</p>
+        <p class="text-neutral-500">180 ECTS</p>
+      </template>
+    </GenericHeroText>
     <div>
       <div class="grid grid-flow-dense grid-cols-6 grid-rows-10 gap-4 px-24">
         <CurriculumDetail
