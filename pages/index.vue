@@ -61,15 +61,11 @@
       </div>
     </section>
 
-    <div class="bg-neutral-800 px-24 py-48 text-neutral-50">
+    <div class="px-24 py-12">
       <section class="grid grid-cols-12 gap-6">
-        <p class="col-span-6 col-start-6 mb-3 font-mono">
-          ✌️ Twee belangrijke aspecten
-        </p>
-
         <div class="col-span-6">
-          <h2 class="text-4xl font-bold">Cutting edge</h2>
-          <p class="mb-6 text-neutral-400">Niet scherp.</p>
+          <h2 class="text-9xl text-neutral-400">Cutting edge</h2>
+          <p class="mb-6 text-lg text-neutral-400">Niet scherp.</p>
 
           <p class="max-w-prose text-lg leading-loose">
             Innovatie ligt ons nauw aan het hart! Je zal als IT’er de rest van
@@ -77,17 +73,23 @@
             voor die beoiende carrierie!
           </p>
         </div>
+      </section>
+    </div>
 
-        <div class="col-span-6">
-          <h2 class="text-4xl font-bold">Projecten</h2>
-          <p class="mb-6 text-neutral-400">Met échte klanten.</p>
+    <div class="px-24 py-12">
+      <section class="grid grid-cols-12 gap-6">
+        <div class="col-span-6 ml-auto">
+          <div class="col-span-6 mt-72">
+            <h2 class="text-9xl text-neutral-400">Projecten</h2>
+            <p class="mb-6 text-lg text-neutral-400">Met échte klanten.</p>
 
-          <p class="max-w-prose text-lg leading-loose">
-            Door een goede opbouw van verschillende projecten doorheen je
-            opleiding, leren we je aan de slag gaan. Met echte klanten, reallife
-            scenarios en goede begeleiding, gaat de stap naar het werkveld als
-            vanzelf.
-          </p>
+            <p class="max-w-prose text-lg leading-loose">
+              Door een goede opbouw van verschillende projecten doorheen je
+              opleiding, leren we je aan de slag gaan. Met echte klanten,
+              reallife scenarios en goede begeleiding, gaat de stap naar het
+              werkveld als vanzelf.
+            </p>
+          </div>
         </div>
       </section>
     </div>
