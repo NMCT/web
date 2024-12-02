@@ -15,150 +15,152 @@
         </p>
       </template>
       <template #floating>
-        <p class="text-neutral-950">🎓 Bachelor IT-opleiding</p>
-        <p class="text-neutral-500">Kortrijk</p>
+        <p class="mb-3 flex items-center gap-3 text-neutral-950">
+          <LucideGraduationCap size="24" /> Bachelor IT-opleiding
+        </p>
+        <p class="flex items-center gap-3 text-neutral-400">
+          <LucideNavigation size="24" /> Kortrijk
+        </p>
       </template>
     </GenericHeroText>
 
     <img
-      class="col-span-12"
+      class="sticky top-0 col-span-12"
       src="/placeholder.jpg"
       alt="Cutting edge IT opleiding"
     >
 
-    <section class="grid grid-cols-12 items-end gap-6 px-24 pb-52 pt-52">
-      <div class="col-span-11 col-start-2 mb-12">
-        <h2 class="mb-6 text-5xl font-medium">Eén duidelijk doel: impact</h2>
-
-        <p class="max-w-prose text-lg leading-loose">
-          We geloven dat je met de nieuwste technologie een enorme impact kan
-          hebben op jouw omgeving. We begeleiden je om op zoek te gaan naar jouw
-          skills die een meerwaarde zijn in teams, het echte leven verbeteren en
-          mensen doen dromen.
-        </p>
-      </div>
-
-      <div class="relative col-span-4">
-        <img class="rounded" src="/1.jpg" >
-        <!-- <span class="absolute bottom-24 left-12 text-5xl">🐝</span> -->
-        <p class="mt-6 font-medium">
-          🐝 Martijn monitort bijen met AI van de US tot in Spanje
-        </p>
-      </div>
-      <div class="relative col-span-4">
-        <img class="rounded" src="/2.jpg" >
-        <!-- <span class="absolute bottom-24 left-12 text-5xl">🧒</span> -->
-        <p class="mt-6 font-medium">
-          🧒 Milan & Sybrin helpen zieke kinderen bewegen met hun app
-        </p>
-      </div>
-      <div class="relative col-span-4">
-        <img class="rounded" src="/3.jpg" >
-        <!-- <span class="absolute bottom-24 left-12 text-5xl">🛟</span> -->
-        <p class="mt-6 font-medium">
-          🛟 Mike & Casper maken de kust veiliger met hun website
-        </p>
-      </div>
-    </section>
-
-    <div class="px-24 py-12">
-      <section class="grid grid-cols-12 gap-6">
-        <div class="col-span-6">
-          <h2 class="text-9xl text-neutral-400">Cutting edge</h2>
-          <p class="mb-6 text-lg text-neutral-400">Niet scherp.</p>
+    <div class="sticky top-0 bg-white">
+      <section class="grid grid-cols-12 items-end gap-6 px-24 pb-52 pt-52">
+        <div class="col-span-11 col-start-2 mb-12">
+          <h2 class="mb-6 text-5xl font-medium">Eén duidelijk doel: impact</h2>
 
           <p class="max-w-prose text-lg leading-loose">
-            Innovatie ligt ons nauw aan het hart! Je zal als IT’er de rest van
-            je leven mogen werken om met alles mee te zijn. wij stomen je klaar
-            voor die beoiende carrierie!
+            We geloven dat je met de nieuwste technologie een enorme impact kan
+            hebben op jouw omgeving. We begeleiden je om op zoek te gaan naar
+            jouw skills die een meerwaarde zijn in teams, het echte leven
+            verbeteren en mensen doen dromen.
+          </p>
+        </div>
+
+        <div class="relative col-span-4">
+          <img class="rounded" src="/1.jpg" >
+          <!-- <span class="absolute bottom-24 left-12 text-5xl">🐝</span> -->
+        </div>
+        <div class="relative col-span-4">
+          <img class="rounded" src="/2.jpg" >
+          <!-- <span class="absolute bottom-24 left-12 text-5xl">🧒</span> -->
+        </div>
+        <div class="relative col-span-4">
+          <img class="rounded" src="/3.jpg" >
+          <!-- <span class="absolute bottom-24 left-12 text-5xl">🛟</span> -->
+        </div>
+      </section>
+
+      <div class="px-24 py-12">
+        <section class="grid grid-cols-12 gap-6">
+          <div class="col-span-6">
+            <h2 class="text-9xl text-neutral-400">Cutting edge</h2>
+            <p class="mb-6 text-lg text-neutral-400">Niet scherp.</p>
+
+            <p class="max-w-prose text-lg leading-loose">
+              Innovatie ligt ons nauw aan het hart! Je zal als IT’er de rest van
+              je leven mogen werken om met alles mee te zijn. wij stomen je
+              klaar voor die beoiende carrierie!
+            </p>
+          </div>
+        </section>
+      </div>
+
+      <div class="px-24 py-12">
+        <section class="grid grid-cols-12 gap-6">
+          <div class="col-span-6 ml-auto">
+            <div class="col-span-6 mt-72">
+              <h2 class="text-9xl text-neutral-400">Projecten</h2>
+              <p class="mb-6 text-lg text-neutral-400">Met échte klanten.</p>
+
+              <p class="max-w-prose text-lg leading-loose">
+                Door een goede opbouw van verschillende projecten doorheen je
+                opleiding, leren we je aan de slag gaan. Met echte klanten,
+                reallife scenarios en goede begeleiding, gaat de stap naar het
+                werkveld als vanzelf.
+              </p>
+            </div>
+          </div>
+        </section>
+      </div>
+
+      <section class="grid grid-cols-12 items-end gap-6 px-24 pt-52">
+        <div class="col-span-11 col-start-2 mb-12">
+          <h2 class="mb-6 text-5xl font-medium">
+            Zo kan je bij ons een expert worden
+          </h2>
+          <p class="max-w-prose text-lg leading-loose">
+            We bieden je een opleiding aan die je klaarstoomt voor de toekomst.
+            We leren je de nieuwste technologieën en methodes aan, zodat je
+            klaar bent om de wereld te veranderen.
           </p>
         </div>
       </section>
-    </div>
 
-    <div class="px-24 py-12">
-      <section class="grid grid-cols-12 gap-6">
-        <div class="col-span-6 ml-auto">
-          <div class="col-span-6 mt-72">
-            <h2 class="text-9xl text-neutral-400">Projecten</h2>
-            <p class="mb-6 text-lg text-neutral-400">Met échte klanten.</p>
-
-            <p class="max-w-prose text-lg leading-loose">
-              Door een goede opbouw van verschillende projecten doorheen je
-              opleiding, leren we je aan de slag gaan. Met echte klanten,
-              reallife scenarios en goede begeleiding, gaat de stap naar het
-              werkveld als vanzelf.
-            </p>
-          </div>
+      <section class="grid grid-cols-12 gap-6 px-24 pb-52 pt-24">
+        <div class="col-span-3">
+          <h3 class="mb-6 flex items-center gap-2 text-lg font-bold">
+            <LucideHandshake /> Studenten = toekomstige collega’s
+          </h3>
+          <p class="max-w-prose text-lg leading-loose">
+            We zien studenten als toekomstige collega’s. We zijn er apetrots op
+            dat we dicht bij onze studenten staan. Ja, we zijn bereikbaar via
+            chat of via mail. Ja, we weten hoe iedereen heet en waar je sterk in
+            bent!
+          </p>
+        </div>
+        <div class="col-span-3 col-start-5">
+          <h3 class="mb-6 flex items-center gap-2 text-lg font-bold">
+            <LucideScale /> Praktijk vs theorie
+          </h3>
+          <p class="max-w-prose text-lg leading-loose">
+            Theorie is belangrijk...! Om de praktijk goed uit te voeren. We
+            willen voldoende theorie meegeven om aan de slag te kunnen met onze
+            praktijkgerichte labo’s.
+          </p>
+        </div>
+        <div class="col-span-3 col-start-9">
+          <h3 class="mb-6 flex items-center gap-2 text-lg font-bold">
+            <LucideSmilePlus /> Ons rapport. Joepie, goede punten!
+          </h3>
+          <p class="max-w-prose text-lg leading-loose">
+            We krijgen jaar na jaar geweldige feedback van onze studenten en
+            bedrijven. Zowel werkpunten als goede punten nemen we ter harte. We
+            gaan iedere dag aan de slag om de beste IT’ers op de markte zetten!
+          </p>
         </div>
       </section>
-    </div>
 
-    <section class="grid grid-cols-12 items-end gap-6 px-24 pt-52">
-      <div class="col-span-11 col-start-2 mb-12">
-        <h2 class="mb-6 text-5xl font-medium">
-          Zo kan je bij ons een expert worden
+      <section
+        class="relative grid grid-cols-12 gap-6 overflow-hidden bg-neutral-100 px-24 pb-32 pt-32"
+      >
+        <HomeMap
+          class="ratio-1 absolute -right-[10vw] -top-6 z-0 h-[50vh] w-[50vh]"
+        />
+
+        <h2
+          class="relative z-10 col-span-11 col-start-2 mb-6 text-5xl font-medium"
+        >
+          Internationaal
         </h2>
-        <p class="max-w-prose text-lg leading-loose">
-          We bieden je een opleiding aan die je klaarstoomt voor de toekomst. We
-          leren je de nieuwste technologieën en methodes aan, zodat je klaar
-          bent om de wereld te veranderen.
+        <p
+          class="relative z-10 col-span-11 col-start-2 max-w-prose text-lg leading-loose"
+        >
+          We zijn trots op onze internationale samenwerkingen. We werken samen
+          met bedrijven en scholen over de hele wereld. We organiseren
+          internationale projecten en stages. We zijn er van overtuigd dat je
+          door samen te werken met mensen van over de hele wereld, je een betere
+          IT’er wordt.
         </p>
-      </div>
-    </section>
-
-    <section class="grid grid-cols-12 gap-6 px-24 pb-52 pt-24">
-      <div class="col-span-3">
-        <h3 class="mb-6 text-lg font-bold">
-          🔮 Studenten = toekomstige collega’s
-        </h3>
-        <p class="max-w-prose text-lg leading-loose">
-          We zien studenten als toekomstige collega’s. We zijn er apetrots op
-          dat we dicht bij onze studenten staan. Ja, we zijn bereikbaar via chat
-          of via mail. Ja, we weten hoe iedereen heet en waar je sterk in bent!
-        </p>
-      </div>
-      <div class="col-span-3 col-start-5">
-        <h3 class="mb-6 text-lg font-bold">⚖️ Praktijk vs theorie</h3>
-        <p class="max-w-prose text-lg leading-loose">
-          Theorie is belangrijk...! Om de praktijk goed uit te voeren. We willen
-          voldoende theorie meegeven om aan de slag te kunnen met onze
-          praktijkgerichte labo’s.
-        </p>
-      </div>
-      <div class="col-span-3 col-start-9">
-        <h3 class="mb-6 text-lg font-bold">
-          📈 Ons rapport. Joepie, goede punten!
-        </h3>
-        <p class="max-w-prose text-lg leading-loose">
-          We krijgen jaar na jaar geweldige feedback van onze studenten en
-          bedrijven. Zowel werkpunten als goede punten nemen we ter harte. We
-          gaan iedere dag aan de slag om de beste IT’ers op de markte zetten!
-        </p>
-      </div>
-    </section>
-
-    <section
-      class="relative grid grid-cols-12 gap-6 overflow-hidden bg-neutral-100 px-24 pb-32 pt-32"
-    >
-      <!-- Giant globe -->
-      <div
-        class="ratio-1 absolute -right-[10vw] -top-6 z-0 h-[50vh] w-[50vh] rounded-full bg-gradient-to-br from-white via-neutral-100 to-neutral-400 shadow-2xl"
-      />
-
-      <h2
-        class="relative z-10 col-span-11 col-start-2 mb-6 text-5xl font-medium"
-      >
-        Internationaal
-      </h2>
-      <p
-        class="relative z-10 col-span-11 col-start-2 max-w-prose text-lg leading-loose"
-      >
-        We zijn trots op onze internationale samenwerkingen. We werken samen met
-        bedrijven en scholen over de hele wereld. We organiseren internationale
-        projecten en stages. We zijn er van overtuigd dat je door samen te
-        werken met mensen van over de hele wereld, je een betere IT’er wordt.
-      </p>
-    </section>
+      </section>
+    </div>
   </div>
 </template>
+
+<script lang="ts" setup></script>

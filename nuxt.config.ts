@@ -17,7 +17,13 @@ export default defineNuxtConfig({
     strict: true,
   },
 
-  modules: ['@nuxt/eslint', '@unocss/nuxt', '@nuxt/fonts', '@nuxt/content'],
+  modules: [
+    '@nuxt/eslint',
+    '@unocss/nuxt',
+    '@nuxt/fonts',
+    '@nuxt/content',
+    'nuxt-lucide-icons',
+  ],
 
   eslint: {
     config: {
