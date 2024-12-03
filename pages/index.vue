@@ -15,10 +15,10 @@
         </p>
       </template>
       <template #floating>
-        <p class="mb-3 flex items-center gap-3 text-neutral-950">
+        <p class="mb-2 flex items-center gap-3 text-neutral-950">
           <LucideGraduationCap size="24" /> Bachelor IT-opleiding
         </p>
-        <p class="flex items-center gap-3 text-neutral-400">
+        <p class="flex items-center gap-3 text-neutral-300">
           <LucideNavigation size="24" /> Kortrijk
         </p>
       </template>
@@ -31,21 +31,25 @@
     >
 
     <GenericHeroSection title="Eén duidelijk doel: impact">
-      <p class="max-w-prose text-lg leading-loose">
+      <p class="mb-12 max-w-prose text-lg leading-loose">
         We geloven dat je met de nieuwste technologie een enorme impact kan
         hebben op jouw omgeving. We begeleiden je om op zoek te gaan naar jouw
         skills die een meerwaarde zijn in teams, het echte leven verbeteren en
         mensen doen dromen.
       </p>
 
-      <div class="relative col-span-4">
-        <img class="rounded" src="/1.jpg" >
-      </div>
-      <div class="relative col-span-4">
-        <img class="rounded" src="/2.jpg" >
-      </div>
-      <div class="relative col-span-4">
-        <img class="rounded" src="/3.jpg" >
+      <div class="grid grid-cols-2 gap-6">
+        <div
+          class="row-span-2 h-full w-full overflow-hidden rounded-xl object-cover"
+        >
+          <img class="h-full w-full object-cover" src="/1.jpg" >
+        </div>
+        <div class="h-full w-full overflow-hidden rounded-xl object-cover">
+          <img class="object-cover" src="/2.jpg" >
+        </div>
+        <div class="h-full w-full overflow-hidden rounded-xl object-cover">
+          <img class="object-cover" src="/3.jpg" >
+        </div>
       </div>
     </GenericHeroSection>
 
@@ -53,7 +57,7 @@
       <p class="max-w-prose text-lg leading-loose">
         Innovatie ligt ons nauw aan het hart! Je zal als IT’er de rest van je
         leven mogen werken om met alles mee te zijn. wij stomen je klaar voor
-        die beoiende carrierie!
+        die boeiende carrierie!
       </p>
     </GenericHeroSection>
 
@@ -107,24 +111,22 @@
       </section>
     </GenericHeroSection>
 
-    <GenericHeroSection title="Internationaal" class="bg-neutral-100">
-      <section
-        class="relative grid grid-cols-12 gap-6 overflow-hidden bg-neutral-100 pb-32 pt-32"
-      >
-        <HomeMap
-          class="ratio-1 absolute -right-[10vw] -top-6 z-0 h-[50vh] w-[50vh] bg-red-300"
-        />
+    <GenericHeroSection
+      title="Internationaal"
+      class="relative bg-neutral-100 py-96 text-white"
+    >
+      <div class="">
+        <div class="absolute inset-0">
+          <HomeMap class="h-full w-full" />
+        </div>
 
-        <p
-          class="relative z-10 col-span-11 col-start-2 max-w-prose text-lg leading-loose"
-        >
-          We zijn trots op onze internationale samenwerkingen. We werken samen
-          met bedrijven en scholen over de hele wereld. We organiseren
-          internationale projecten en stages. We zijn er van overtuigd dat je
-          door samen te werken met mensen van over de hele wereld, je een betere
-          IT’er wordt.
+        <p class="relative z-10 w-1/3 break-words text-lg leading-loose">
+          We zijn trots op onze internationale samenwerkingen met bedrijven en
+          scholen over de hele wereld. We zijn er van overtuigd dat je door
+          samen te werken met mensen van over de hele wereld een betere IT’er
+          wordt.
         </p>
-      </section>
+      </div>
     </GenericHeroSection>
   </div>
 </template>

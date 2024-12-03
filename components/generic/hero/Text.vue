@@ -10,7 +10,7 @@
       </div>
     </section>
 
-    <div class="col-span-2 font-mono text-sm leading-relaxed tracking-wide">
+    <div class="col-span-2 text-sm leading-relaxed tracking-wide">
       <slot name="floating" />
     </div>
   </div>

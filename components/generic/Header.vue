@@ -4,6 +4,6 @@
       <GenericLogo class="h-8" />
     </NuxtLink>
 
-    <GenericNavigation class="col-span-3" />
+    <GenericNavigation />
   </div>
 </template>

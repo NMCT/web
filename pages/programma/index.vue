@@ -11,8 +11,12 @@
         </p>
       </template>
       <template #floating>
-        <p class="text-neutral-950">5 pijlers</p>
-        <p class="text-neutral-500">180 ECTS</p>
+        <p class="mb-2 flex items-center gap-3 text-neutral-950">
+          <LucideLandmark size="24" /> 5 pijlers
+        </p>
+        <p class="flex items-center gap-3 text-neutral-300">
+          <LucideDot size="24" /> 180 ECTS
+        </p>
       </template>
     </GenericHeroText>
     <div>
