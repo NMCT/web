@@ -5,7 +5,7 @@
         {{ title }}
       </h1>
 
-      <div class="max-w-prose text-lg leading-loose">
+      <div class="max-w-prose text-xl leading-loose">
         <slot name="text" />
       </div>
     </section>

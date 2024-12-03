@@ -5,11 +5,11 @@
         Multimedia & creative technologies - &copy;
         {{ new Date().getFullYear() }}
       </p>
-      <p class="">Make cool shit.</p>
+      <p class="text-neutral-500">Make cool shit.</p>
     </div>
 
     <div class="col-span-3 col-start-10">
-      <p class="max-w-prose font-medium text-neutral-700">
+      <p class="max-w-prose text-neutral-500">
         Met nieuwe technologie een impact hebben op jouw directe omgeving.
       </p>
     </div>

@@ -4,17 +4,20 @@ export default defineNuxtConfig({
   devtools: {
     enabled: true,
   },
-
   experimental: {
     componentIslands: true,
     typedPages: true,
     viewTransition: true,
+  },
+  runtimeConfig: {
+    mapboxToken: '',
   },
 
   css: ['@unocss/reset/tailwind.css'],
 
   typescript: {
     strict: true,
+    typeCheck: true,
   },
 
   modules: [

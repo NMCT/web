@@ -25,85 +25,54 @@
     </GenericHeroText>
 
     <img
-      class="sticky top-0 col-span-12"
+      class="col-span-12"
       src="/placeholder.jpg"
       alt="Cutting edge IT opleiding"
     >
 
-    <div class="sticky top-0 bg-white">
-      <section class="grid grid-cols-12 items-end gap-6 px-24 pb-52 pt-52">
-        <div class="col-span-11 col-start-2 mb-12">
-          <h2 class="mb-6 text-5xl font-medium">Eén duidelijk doel: impact</h2>
+    <GenericHeroSection title="Eén duidelijk doel: impact">
+      <p class="max-w-prose text-lg leading-loose">
+        We geloven dat je met de nieuwste technologie een enorme impact kan
+        hebben op jouw omgeving. We begeleiden je om op zoek te gaan naar jouw
+        skills die een meerwaarde zijn in teams, het echte leven verbeteren en
+        mensen doen dromen.
+      </p>
 
-          <p class="max-w-prose text-lg leading-loose">
-            We geloven dat je met de nieuwste technologie een enorme impact kan
-            hebben op jouw omgeving. We begeleiden je om op zoek te gaan naar
-            jouw skills die een meerwaarde zijn in teams, het echte leven
-            verbeteren en mensen doen dromen.
-          </p>
-        </div>
-
-        <div class="relative col-span-4">
-          <img class="rounded" src="/1.jpg" >
-          <!-- <span class="absolute bottom-24 left-12 text-5xl">🐝</span> -->
-        </div>
-        <div class="relative col-span-4">
-          <img class="rounded" src="/2.jpg" >
-          <!-- <span class="absolute bottom-24 left-12 text-5xl">🧒</span> -->
-        </div>
-        <div class="relative col-span-4">
-          <img class="rounded" src="/3.jpg" >
-          <!-- <span class="absolute bottom-24 left-12 text-5xl">🛟</span> -->
-        </div>
-      </section>
-
-      <div class="px-24 py-12">
-        <section class="grid grid-cols-12 gap-6">
-          <div class="col-span-6">
-            <h2 class="text-9xl text-neutral-400">Cutting edge</h2>
-            <p class="mb-6 text-lg text-neutral-400">Niet scherp.</p>
-
-            <p class="max-w-prose text-lg leading-loose">
-              Innovatie ligt ons nauw aan het hart! Je zal als IT’er de rest van
-              je leven mogen werken om met alles mee te zijn. wij stomen je
-              klaar voor die beoiende carrierie!
-            </p>
-          </div>
-        </section>
+      <div class="relative col-span-4">
+        <img class="rounded" src="/1.jpg" >
       </div>
-
-      <div class="px-24 py-12">
-        <section class="grid grid-cols-12 gap-6">
-          <div class="col-span-6 ml-auto">
-            <div class="col-span-6 mt-72">
-              <h2 class="text-9xl text-neutral-400">Projecten</h2>
-              <p class="mb-6 text-lg text-neutral-400">Met échte klanten.</p>
-
-              <p class="max-w-prose text-lg leading-loose">
-                Door een goede opbouw van verschillende projecten doorheen je
-                opleiding, leren we je aan de slag gaan. Met echte klanten,
-                reallife scenarios en goede begeleiding, gaat de stap naar het
-                werkveld als vanzelf.
-              </p>
-            </div>
-          </div>
-        </section>
+      <div class="relative col-span-4">
+        <img class="rounded" src="/2.jpg" >
       </div>
+      <div class="relative col-span-4">
+        <img class="rounded" src="/3.jpg" >
+      </div>
+    </GenericHeroSection>
 
-      <section class="grid grid-cols-12 items-end gap-6 px-24 pt-52">
-        <div class="col-span-11 col-start-2 mb-12">
-          <h2 class="mb-6 text-5xl font-medium">
-            Zo kan je bij ons een expert worden
-          </h2>
-          <p class="max-w-prose text-lg leading-loose">
-            We bieden je een opleiding aan die je klaarstoomt voor de toekomst.
-            We leren je de nieuwste technologieën en methodes aan, zodat je
-            klaar bent om de wereld te veranderen.
-          </p>
-        </div>
-      </section>
+    <GenericHeroSection title="Cutting edge: niet scherp">
+      <p class="max-w-prose text-lg leading-loose">
+        Innovatie ligt ons nauw aan het hart! Je zal als IT’er de rest van je
+        leven mogen werken om met alles mee te zijn. wij stomen je klaar voor
+        die beoiende carrierie!
+      </p>
+    </GenericHeroSection>
 
-      <section class="grid grid-cols-12 gap-6 px-24 pb-52 pt-24">
+    <GenericHeroSection title="Projecten: met échte klanten">
+      <p class="max-w-prose text-lg leading-loose">
+        Door een goede opbouw van verschillende projecten doorheen je opleiding,
+        leren we je aan de slag gaan. Met echte klanten, reallife scenarios en
+        goede begeleiding, gaat de stap naar het werkveld als vanzelf.
+      </p>
+    </GenericHeroSection>
+
+    <GenericHeroSection title="Zo kan je bij ons een expert worden">
+      <p class="max-w-prose text-lg leading-loose">
+        We bieden je een opleiding aan die je klaarstoomt voor de toekomst. We
+        leren je de nieuwste technologieën en methodes aan, zodat je klaar bent
+        om de wereld te veranderen.
+      </p>
+
+      <section class="grid grid-cols-12 gap-3 pb-52 pt-24">
         <div class="col-span-3">
           <h3 class="mb-6 flex items-center gap-2 text-lg font-bold">
             <LucideHandshake /> Studenten = toekomstige collega’s
@@ -136,19 +105,16 @@
           </p>
         </div>
       </section>
+    </GenericHeroSection>
 
+    <GenericHeroSection title="Internationaal" class="bg-neutral-100">
       <section
-        class="relative grid grid-cols-12 gap-6 overflow-hidden bg-neutral-100 px-24 pb-32 pt-32"
+        class="relative grid grid-cols-12 gap-6 overflow-hidden bg-neutral-100 pb-32 pt-32"
       >
         <HomeMap
-          class="ratio-1 absolute -right-[10vw] -top-6 z-0 h-[50vh] w-[50vh]"
+          class="ratio-1 absolute -right-[10vw] -top-6 z-0 h-[50vh] w-[50vh] bg-red-300"
         />
 
-        <h2
-          class="relative z-10 col-span-11 col-start-2 mb-6 text-5xl font-medium"
-        >
-          Internationaal
-        </h2>
         <p
           class="relative z-10 col-span-11 col-start-2 max-w-prose text-lg leading-loose"
         >
@@ -159,7 +125,7 @@
           IT’er wordt.
         </p>
       </section>
-    </div>
+    </GenericHeroSection>
   </div>
 </template>
 
