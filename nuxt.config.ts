@@ -10,7 +10,9 @@ export default defineNuxtConfig({
     viewTransition: true,
   },
   runtimeConfig: {
-    mapboxToken: '',
+    public: {
+      mapboxToken: process.env.NUXT_MAPBOX_TOKEN,
+    },
   },
 
   css: ['@unocss/reset/tailwind.css'],
