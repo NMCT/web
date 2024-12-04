@@ -105,7 +105,8 @@
           <p class="max-w-prose text-lg leading-loose">
             We krijgen jaar na jaar geweldige feedback van onze studenten en
             bedrijven. Zowel werkpunten als goede punten nemen we ter harte. We
-            gaan iedere dag aan de slag om de beste IT’ers op de markte zetten!
+            gaan iedere dag aan de slag om de beste IT’ers op de markt te
+            zetten!
           </p>
         </div>
       </section>

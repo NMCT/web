@@ -28,6 +28,7 @@ export default defineNuxtConfig({
     '@nuxt/fonts',
     '@nuxt/content',
     'nuxt-lucide-icons',
+    '@vueuse/nuxt',
   ],
 
   eslint: {

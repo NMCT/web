@@ -8,12 +8,12 @@
     }`"
     :to="`${props.module._path}`"
   >
-    <h1 class="text-2xl font-semibold">{{ props.module.title }}</h1>
+    <h1 class="font-bold">{{ props.module.title }}</h1>
   </RouterLink>
 </template>
 
 <script lang="ts" setup>
-const props = defineProps({
+const props = defineProps
   module: {
     type: Object,
     required: true,

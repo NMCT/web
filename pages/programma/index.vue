@@ -15,7 +15,7 @@
           <LucideLandmark size="24" /> 5 pijlers
         </p>
         <p class="flex items-center gap-3 text-neutral-300">
-          <LucideDot size="24" /> 180 ECTS
+          <LucideStar size="24" /> 180 ECTS
         </p>
       </template>
     </GenericHeroText>
