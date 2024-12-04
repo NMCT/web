@@ -5,7 +5,7 @@
     } col-start-${props.module.semester} ${
       props.module.tracks &&
       props.module.tracks.map((track: string) => ` js-track-${track}`).join(``)
-    } bg-${props.module.pillar}-100`"
+    } bg-${props.module.pillar}-50`"
     :to="`${props.module._path}`"
   >
     <!-- <span

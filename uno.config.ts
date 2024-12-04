@@ -90,11 +90,18 @@ export default defineConfig({
     ...Array.from({ length: 30 }, (_, i) => `row-span-${i + 1}`),
     // Modules can start at any of the 6 semesters
     ...Array.from({ length: 6 }, (_, i) => `col-start-${i + 1}`),
-    // Include all the colors for 400, 500 & 600
+    // Include all the colors for 50, 100, ...,  900
+
     ...Array.from({ length: 10 }, (_, i) => `bg-analysis-${i * 100}`),
+    // also include 50
     ...Array.from({ length: 10 }, (_, i) => `bg-code-${i * 100}`),
     ...Array.from({ length: 10 }, (_, i) => `bg-connect-${i * 100}`),
     ...Array.from({ length: 10 }, (_, i) => `bg-design-${i * 100}`),
     ...Array.from({ length: 10 }, (_, i) => `bg-project-${i * 100}`),
+    'bg-analysis-50',
+    'bg-code-50',
+    'bg-connect-50',
+    'bg-design-50',
+    'bg-project-50',
   ],
 })
