@@ -1,11 +1,11 @@
 <template>
   <RouterLink
-    :class="`rounded-lg bg-neutral-50 px-4 py-4 hover:text-neutral-400 row-span-${
+    :class="`rounded-2xl bg-neutral-50 px-4 py-4 hover:text-neutral-400 row-span-${
       props.module.studycredits / 3
     } col-start-${props.module.semester} ${
       props.module.tracks &&
       props.module.tracks.map((track: string) => ` js-track-${track}`).join(``)
-    }`"
+    } bg-${props.module.pillar}-400`"
     :to="`${props.module._path}`"
   >
     <h1 class="font-bold">{{ props.module.title }}</h1>
@@ -13,7 +13,7 @@
 </template>
 
 <script lang="ts" setup>
-const props = defineProps
+const props = defineProps({
   module: {
     type: Object,
     required: true,

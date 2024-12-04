@@ -4,17 +4,17 @@
       <template #text>
         <p>
           We kiezen resoluut voor een aanbod met focus. We kiezen voor een
-          beperkt aantal modules per semester zodat je de ruimte krijgt om je
-          voldoende te focussen en te verdiepen op de kern. Alle modules worden
-          geregeld geupdate in samenspraak met het werkveld, dat heb je als je
-          steeds de meest innovatieve wil zijn...
+          beperkt aantal modules per semester met voldoende uren zodat je de
+          ruimte krijgt om je voldoende te focussen en te verdiepen op de kern.
+          Alle modules worden geregeld geupdate in samenspraak met het werkveld,
+          dat heb je als je steeds de meest innovatieve wil zijn...
         </p>
       </template>
       <template #floating>
         <p class="mb-2 flex items-center gap-3 text-neutral-950">
           <LucideLandmark size="24" /> 5 pijlers
         </p>
-        <p class="flex items-center gap-3 text-neutral-300">
+        <p class="flex items-center gap-3 text-neutral-500">
           <LucideStar size="24" /> 180 ECTS
         </p>
       </template>

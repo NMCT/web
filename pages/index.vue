@@ -18,7 +18,7 @@
         <p class="mb-2 flex items-center gap-3 text-neutral-950">
           <LucideGraduationCap size="24" /> Bachelor IT-opleiding
         </p>
-        <p class="flex items-center gap-3 text-neutral-300">
+        <p class="flex items-center gap-3 text-neutral-500">
           <LucideNavigation size="24" /> Kortrijk
         </p>
       </template>
@@ -121,12 +121,20 @@
           <HomeMap class="h-full w-full" />
         </div>
 
-        <p class="relative z-10 w-1/3 break-words text-lg leading-loose">
-          We zijn trots op onze internationale samenwerkingen met bedrijven en
-          scholen over de hele wereld. We zijn er van overtuigd dat je door
-          samen te werken met mensen van over de hele wereld een betere IT’er
-          wordt.
-        </p>
+        <div class="relative z-10 w-1/3">
+          <nav class="mb-3 flex items-center gap-3">
+            <button><LucideArrowLeft /></button>
+            <p class="font-bold tracking-wide">Intro</p>
+            <button><LucideArrowRight /></button>
+          </nav>
+
+          <p class="break-words text-lg leading-loose">
+            We zijn trots op onze internationale samenwerkingen met bedrijven en
+            scholen over de hele wereld. We zijn er van overtuigd dat je door
+            samen te werken met mensen van over de hele wereld een betere IT’er
+            wordt.
+          </p>
+        </div>
       </div>
     </GenericHeroSection>
   </div>
