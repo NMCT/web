@@ -16,10 +16,10 @@
       </template>
       <template #floating>
         <p class="mb-2 flex items-center gap-3 text-neutral-950">
-          <LucideGraduationCap size="24" /> Bachelor IT-opleiding
+          <LucideGraduationCap :size="24" /> Bachelor IT-opleiding
         </p>
         <p class="flex items-center gap-3 text-neutral-500">
-          <LucideNavigation size="24" /> Kortrijk
+          <LucideNavigation :size="24" /> Kortrijk
         </p>
       </template>
     </GenericHeroText>
@@ -28,9 +28,9 @@
       class="col-span-12"
       src="/placeholder.jpg"
       alt="Cutting edge IT opleiding"
-    >
+    />
 
-    <GenericHeroSection title="Eén duidelijk doel: impact">
+    <HomeSection title="Eén duidelijk doel: impact">
       <p class="mb-12 max-w-prose text-lg leading-loose">
         We geloven dat je met de nieuwste technologie een enorme impact kan
         hebben op jouw omgeving. We begeleiden je om op zoek te gaan naar jouw
@@ -42,34 +42,43 @@
         <div
           class="row-span-2 h-full w-full overflow-hidden rounded-xl object-cover"
         >
-          <img class="h-full w-full object-cover" src="/1.jpg" >
+          <img class="h-full w-full object-cover" src="/1.jpg" />
         </div>
         <div class="h-full w-full overflow-hidden rounded-xl object-cover">
-          <img class="object-cover" src="/2.jpg" >
+          <img class="object-cover" src="/2.jpg" />
         </div>
         <div class="h-full w-full overflow-hidden rounded-xl object-cover">
-          <img class="object-cover" src="/3.jpg" >
+          <img class="object-cover" src="/3.jpg" />
         </div>
       </div>
-    </GenericHeroSection>
+    </HomeSection>
 
-    <GenericHeroSection title="Cutting edge: niet scherp">
-      <p class="max-w-prose text-lg leading-loose">
-        Innovatie ligt ons nauw aan het hart! Je zal als IT’er de rest van je
-        leven mogen werken om met alles mee te zijn. wij stomen je klaar voor
-        die boeiende carrierie!
-      </p>
-    </GenericHeroSection>
+    <div class="grid grid-cols-12 gap-6 px-24 py-52">
+      <div class="col-span-6">
+        <HomeSectionTitle class="mb-12"
+          >Cutting edge: niet scherp</HomeSectionTitle
+        >
+        <p class="max-w-prose text-lg leading-loose">
+          Innovatie ligt ons nauw aan het hart! Je zal als IT’er de rest van je
+          leven mogen werken om met alles mee te zijn. wij stomen je klaar voor
+          die boeiende carrierie!
+        </p>
+      </div>
 
-    <GenericHeroSection title="Projecten: met échte klanten">
-      <p class="max-w-prose text-lg leading-loose">
-        Door een goede opbouw van verschillende projecten doorheen je opleiding,
-        leren we je aan de slag gaan. Met echte klanten, reallife scenarios en
-        goede begeleiding, gaat de stap naar het werkveld als vanzelf.
-      </p>
-    </GenericHeroSection>
+      <div class="col-span-6">
+        <HomeSectionTitle class="mb-12"
+          >Projecten: met échte klanten</HomeSectionTitle
+        >
+        <p class="max-w-prose text-lg leading-loose">
+          Door een goede opbouw van verschillende projecten doorheen je
+          opleiding, leren we je aan de slag gaan. Met echte klanten, reallife
+          scenarios en goede begeleiding, gaat de stap naar het werkveld als
+          vanzelf.
+        </p>
+      </div>
+    </div>
 
-    <GenericHeroSection title="Zo kan je bij ons een expert worden">
+    <HomeSection title="Zo kan je bij ons een expert worden" class="">
       <p class="max-w-prose text-lg leading-loose">
         We bieden je een opleiding aan die je klaarstoomt voor de toekomst. We
         leren je de nieuwste technologieën en methodes aan, zodat je klaar bent
@@ -110,9 +119,9 @@
           </p>
         </div>
       </section>
-    </GenericHeroSection>
+    </HomeSection>
 
-    <GenericHeroSection
+    <HomeSection
       title="Internationaal"
       class="relative bg-neutral-100 py-96 text-white"
     >
@@ -136,7 +145,7 @@
           </p>
         </div>
       </div>
-    </GenericHeroSection>
+    </HomeSection>
   </div>
 </template>
 
