@@ -121,7 +121,7 @@
             </BentoItem>
 
             <BentoItem
-              class="relative col-span-8 flex flex-col items-center justify-center overflow-hidden text-white"
+              class="relative col-span-8 flex aspect-square flex-col items-center justify-center overflow-hidden text-white"
             >
               <img class="absolute inset-0 z-0 object-cover" src="/3.jpg" >
               <div

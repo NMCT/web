@@ -3,7 +3,7 @@
     <GenericContainer>
       <GenericHeroText title="Een les-aanbod met focus. Vol&nbsp;innovatie.">
         <template #text>
-          <p>
+          <p class="max-w-prose text-center">
             We kiezen resoluut voor een aanbod met focus. We kiezen voor een
             beperkt aantal modules per semester met voldoende uren zodat je de
             ruimte krijgt om je voldoende te focussen en te verdiepen op de
@@ -11,14 +11,17 @@
             werkveld, dat heb je als je steeds de meest innovatieve wil zijn...
           </p>
         </template>
-        <template #floating>
-          <p class="mb-2 flex items-center gap-3 text-neutral-950">
-            <LucideLandmark :size="24" /> 5 pijlers
-          </p>
-          <p class="flex items-center gap-3 text-neutral-500">
+
+        <div
+          class="col-span-12 flex items-center justify-center gap-16 text-sm text-neutral-400"
+        >
+          <p class="flex items-center gap-3 whitespace-nowrap">
             <LucideStar :size="24" /> 180 ECTS
           </p>
-        </template>
+          <p class="flex items-center gap-3">
+            <LucideTally5 :size="24" /> 5 Pijlers
+          </p>
+        </div>
       </GenericHeroText>
 
       <div>

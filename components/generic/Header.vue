@@ -6,7 +6,7 @@
           <GenericLogo class="h-8" />
         </NuxtLink>
 
-        <GenericNavigation />
+        <GenericNavigation class="col-span-3" />
       </div>
     </GenericContainer>
   </GenericRow>
