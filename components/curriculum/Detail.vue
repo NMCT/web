@@ -1,11 +1,11 @@
 <template>
   <RouterLink
-    :class="`rounded-2xl px-4 py-4 row-span-${
+    :class="`rounded-md px-4 py-2 row-span-${
       props.module.studycredits / 3
     } col-start-${props.module.semester} ${
       props.module.tracks &&
       props.module.tracks.map((track: string) => ` js-track-${track}`).join(``)
-    } bg-${props.module.pillar}-50`"
+    } bg-${props.module.pillar}-100`"
     :to="`${props.module._path}`"
   >
     <!-- <span
@@ -13,7 +13,7 @@
     >
       {{ props.module.pillar }}
     </span> -->
-    <h1 class="font-bold">{{ props.module.title }}</h1>
+    <h1 class="font-semibold">{{ props.module.title }}</h1>
   </RouterLink>
 </template>
 

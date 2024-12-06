@@ -20,8 +20,9 @@
           </p>
         </template>
       </GenericHeroText>
+
       <div>
-        <div class="mb-12 grid grid-cols-4 gap-4 px-24">
+        <div class="mb-12 grid grid-cols-4 gap-4">
           <div class="text-lg font-bold">
             <input
               id="ai-engineer"
@@ -30,7 +31,7 @@
               type="radio"
               class="sr-only"
               @change="getModulesFiltered"
-            />
+            >
             <label for="ai-engineer"> AI Engineer </label>
           </div>
           <div class="text-lg font-bold">
@@ -41,7 +42,7 @@
               type="radio"
               class="sr-only"
               @change="getModulesFiltered"
-            />
+            >
             <label for="iot-engineer"> IoT Engineer </label>
           </div>
           <div class="text-lg font-bold">
@@ -52,7 +53,7 @@
               type="radio"
               class="sr-only"
               @change="getModulesFiltered"
-            />
+            >
             <label for="next-web-developer"> Next Web Developer </label>
           </div>
           <div class="text-lg font-bold">
@@ -63,11 +64,11 @@
               type="radio"
               class="sr-only"
               @change="getModulesFiltered"
-            />
+            >
             <label for="xr-developer"> XR Developer </label>
           </div>
         </div>
-        <div class="grid grid-flow-dense grid-cols-6 grid-rows-10 gap-4 px-24">
+        <div class="grid grid-flow-dense grid-cols-6 grid-rows-10 gap-4">
           <CurriculumDetail
             v-for="module in modules"
             :key="module._path"
