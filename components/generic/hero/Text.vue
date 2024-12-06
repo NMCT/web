@@ -1,18 +1,18 @@
 <template>
   <div class="grid grid-cols-12 items-center gap-6 px-24">
-    <section class="col-span-10 pb-48 pt-24">
-      <h1 class="mb-6 text-7xl font-semibold">
-        {{ title }}
-      </h1>
+    <h1
+      class="col-span-12 pb-8 pt-24 text-center text-7xl font-semibold leading-tight"
+    >
+      {{ title }}
+    </h1>
 
-      <div class="max-w-prose text-xl leading-loose">
-        <slot name="text" />
-      </div>
-    </section>
-
-    <div class="col-span-2 text-sm leading-relaxed tracking-wide">
-      <slot name="floating" />
+    <div class="col-span-12 mx-auto mb-32 max-w-prose text-xl leading-normal">
+      <slot name="text" />
     </div>
+
+    <!-- <div class="col-span-2 text-sm leading-relaxed tracking-wide">
+      <slot name="floating" />
+    </div> -->
   </div>
 </template>
 

@@ -1,12 +1,8 @@
 <template>
-  <div class="grid grid-cols-12 gap-6 px-24 py-52">
-    <div class="col-span-3">
-      <HomeSectionTitle>{{ title }}</HomeSectionTitle>
-    </div>
+  <div class="grid grid-cols-12 gap-6 py-52">
+    <HomeSectionTitle class="col-span-3">{{ title }}</HomeSectionTitle>
 
-    <div class="col-span-9">
-      <slot />
-    </div>
+    <slot />
   </div>
 </template>
 
