@@ -22,8 +22,8 @@
       </GenericHeroText>
 
       <div>
-        <div class="mb-12 grid grid-cols-4 gap-4">
-          <div class="text-lg font-bold">
+        <div class="mb-12 grid grid-cols-6 gap-4">
+          <div class="col-start-3 text-lg font-bold">
             <input
               id="ai-engineer"
               v-model="selected"

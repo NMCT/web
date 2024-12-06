@@ -16,14 +16,20 @@
               het lijf geschreven.
             </p> -->
           </template>
-          <template #floating>
-            <p class="mb-2 flex items-center gap-3 text-neutral-950">
+
+          <div
+            class="col-span-12 flex items-center justify-center gap-16 text-sm text-neutral-400"
+          >
+            <p class="flex items-center gap-3 whitespace-nowrap">
               <LucideGraduationCap :size="24" /> Bachelor IT-opleiding
             </p>
-            <p class="flex items-center gap-3 text-neutral-500">
-              <LucideNavigation :size="24" /> Kortrijk
+            <p class="flex items-center gap-3">
+              <LucideBuilding2 :size="24" /> Kortrijk
             </p>
-          </template>
+            <p class="flex items-center gap-3 whitespace-nowrap">
+              <LucideRocket :size="24" /> New technology
+            </p>
+          </div>
         </GenericHeroText>
       </GenericContainer>
     </GenericRow>
