@@ -214,7 +214,7 @@
 
 <style scoped>
 .test {
-  --size: 45px;
+  --size: 128px;
   --line: color-mix(in lch, canvasText, transparent 90%);
   background:
     linear-gradient(90deg, var(--line) 1px, transparent 1px var(--size)) 50% 50% /
