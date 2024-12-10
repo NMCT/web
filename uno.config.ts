@@ -4,7 +4,7 @@ import { defineConfig } from 'unocss'
 export default defineConfig({
   theme: {
     fontFamily: {
-      sans: ['Inter', 'sans-serif'],
+      sans: ['Helvetica Neue', 'Helvetica', 'Inter', 'sans-serif'],
     },
 
     colors: {

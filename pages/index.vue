@@ -1,5 +1,6 @@
 <template>
   <div>
+    <div class="test pointer-events-none fixed top-0 h-full w-full" />
     <GenericRow class="py-24">
       <GenericContainer>
         <GenericHeroText title="Impact door future tech&nbsp;&&nbsp;IT">
@@ -107,7 +108,7 @@
 
           <BentoBox>
             <BentoItem
-              class="col-span-4 flex flex-col items-center justify-center"
+              class="relative col-span-4 flex flex-col items-center justify-center bg-white"
             >
               <LucideRocket class="mb-4" :size="36" />
               <h3 class="mb-6 text-center text-4xl font-bold">
@@ -210,3 +211,18 @@
 </template>
 
 <script lang="ts" setup></script>
+
+<style scoped>
+.test {
+  --size: 45px;
+  --line: color-mix(in lch, canvasText, transparent 90%);
+  background:
+    linear-gradient(90deg, var(--line) 1px, transparent 1px var(--size)) 50% 50% /
+      var(--size) var(--size),
+    linear-gradient(var(--line) 1px, transparent 1px var(--size)) 50% 50% /
+      var(--size) var(--size);
+  -webkit-mask: linear-gradient(-20deg, transparent 50%, white);
+  mask: linear-gradient(-20deg, transparent 50%, white);
+  transform-style: flat;
+}
+</style>
