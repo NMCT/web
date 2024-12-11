@@ -41,7 +41,7 @@
           class="col-span-12 block rounded-2xl"
           src="/placeholder.jpg"
           alt="Cutting edge IT opleiding"
-        >
+        />
       </GenericContainer>
     </GenericRow>
 
@@ -58,13 +58,13 @@
           <div
             class="col-span-5 col-start-4 row-span-2 h-full w-full overflow-hidden rounded-xl"
           >
-            <img class="h-full w-full object-cover" src="/1.jpg" >
+            <img class="h-full w-full object-cover" src="/1.jpg" />
           </div>
           <div class="col-span-4 h-full w-full overflow-hidden rounded-xl">
-            <img class="object-cover" src="/2.jpg" >
+            <img class="object-cover" src="/2.jpg" />
           </div>
           <div class="col-span-4 h-full w-full overflow-hidden rounded-xl">
-            <img class="object-cover" src="/3.jpg" >
+            <img class="object-cover" src="/3.jpg" />
           </div>
         </HomeSection>
       </GenericContainer>
@@ -124,7 +124,7 @@
             <BentoItem
               class="relative col-span-8 flex aspect-square flex-col items-center justify-center overflow-hidden text-white"
             >
-              <img class="absolute inset-0 z-0 object-cover" src="/3.jpg" >
+              <img class="absolute inset-0 z-0 object-cover" src="/3.jpg" />
               <div
                 class="absolute inset-x-0 bottom-0 z-10 h-2/3 bg-gradient-to-t from-neutral-900 to-transparent"
               />
@@ -150,7 +150,7 @@
               <div class="">
                 <LucideSmilePlus class="mb-4 text-yellow-400" :size="36" />
                 <h3 class="mb-6 text-4xl font-bold">
-                  Ons rapport.<br >Joepie, goede punten!
+                  Ons rapport.<br />Joepie, goede punten!
                 </h3>
                 <p class="max-w-prose text-lg leading-normal">
                   We krijgen jaar na jaar geweldige feedback van onze studenten
@@ -224,5 +224,11 @@
   -webkit-mask: linear-gradient(-20deg, transparent 50%, white);
   mask: linear-gradient(-20deg, transparent 50%, white);
   transform-style: flat;
+}
+
+@media (prefers-color-scheme: dark) {
+  .test {
+    --line: color-mix(in lch, canvasText, transparent 10%);
+  }
 }
 </style>
