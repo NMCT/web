@@ -71,6 +71,26 @@
             <label for="xr-developer"> XR Developer </label>
           </div>
         </div>
+
+        <div class="mb-3 grid grid-cols-6 gap-4">
+          <h4
+            v-for="year in 3"
+            :key="year"
+            class="col-span-2 text-center text-sm text-neutral-400"
+          >
+            Year {{ year }}
+          </h4>
+        </div>
+        <div class="mb-3 grid grid-cols-6 gap-4">
+          <h4
+            v-for="semester in 6"
+            :key="semester"
+            class="text-center text-sm text-neutral-700"
+          >
+            Semester {{ semester }}
+          </h4>
+        </div>
+
         <div class="grid grid-flow-dense grid-cols-6 grid-rows-10 gap-4">
           <CurriculumDetail
             v-for="module in modules"

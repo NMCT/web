@@ -36,11 +36,21 @@
 
     <GenericRow>
       <GenericContainer>
-        <img
-          class="col-span-12 block rounded-2xl"
-          src="/placeholder.jpg"
-          alt="Cutting edge IT opleiding"
+        <div
+          class="relative col-span-12 grid grid-cols-1 grid-rows-1 place-items-center"
         >
+          <img
+            class="col-start-1 row-start-1 block rounded-2xl"
+            src="/placeholder.jpg"
+            alt="Cutting edge IT opleiding"
+          >
+
+          <button
+            class="col-start-1 row-start-1 flex aspect-square size-24 items-center justify-center rounded-full bg-white/60 backdrop-blur-sm"
+          >
+            <LucidePlay class="fill-current stroke-none" :size="24" />
+          </button>
+        </div>
       </GenericContainer>
     </GenericRow>
 
