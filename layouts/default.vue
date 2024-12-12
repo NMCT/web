@@ -6,12 +6,14 @@
       <slot />
     </div>
 
-    <div class="test pointer-events-none absolute top-0 h-full w-full" />
+    <div
+      class="background-grid pointer-events-none absolute top-0 h-full w-full"
+    />
   </div>
 </template>
 
 <style scoped>
-.test {
+.background-grid {
   --size: 4rem;
   --line: color-mix(in lch, canvasText, transparent 90%);
   background:
@@ -25,7 +27,7 @@
 }
 
 @media (prefers-color-scheme: dark) {
-  .test {
+  .background-grid {
     --line: color-mix(in lch, canvasText, transparent 10%);
   }
 }
