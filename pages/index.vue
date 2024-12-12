@@ -171,7 +171,7 @@
               <div class="flex items-center justify-center text-center">
                 <GenericCounter
                   class="text-8xl font-bold leading-none"
-                  :end-value="85"
+                  :end-value="93"
                 />
                 <LucidePercent class="text-white" :size="48" />
               </div>
@@ -198,6 +198,8 @@
     <GenericRow class="relative">
       <GenericContainer>
         <div class="absolute inset-0">
+          <!-- https://vueuse.org/core/useIntersectionObserver/ -->
+          <!-- Trigger the map animation with this directive? -->
           <HomeMap class="h-full w-full" />
         </div>
 
