@@ -169,7 +169,10 @@
                 </p>
               </div>
               <div class="flex items-center justify-center text-center">
-                <span class="text-8xl font-bold leading-none">85</span>
+                <GenericCounter
+                  class="text-8xl font-bold leading-none"
+                  :end-value="85"
+                />
                 <LucidePercent class="text-white" :size="48" />
               </div>
             </BentoItem>
