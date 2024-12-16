@@ -98,6 +98,12 @@ export default defineConfig({
     ...Array.from({ length: 10 }, (_, i) => `bg-connect-${i * 100}`),
     ...Array.from({ length: 10 }, (_, i) => `bg-design-${i * 100}`),
     ...Array.from({ length: 10 }, (_, i) => `bg-project-${i * 100}`),
+    ...Array.from({ length: 10 }, (_, i) => `@dark:bg-analysis-${i * 100}`),
+    // also include 50
+    ...Array.from({ length: 10 }, (_, i) => `@dark:bg-code-${i * 100}`),
+    ...Array.from({ length: 10 }, (_, i) => `@dark:bg-connect-${i * 100}`),
+    ...Array.from({ length: 10 }, (_, i) => `@dark:bg-design-${i * 100}`),
+    ...Array.from({ length: 10 }, (_, i) => `@dark:bg-project-${i * 100}`),
     'bg-analysis-50',
     'bg-code-50',
     'bg-connect-50',

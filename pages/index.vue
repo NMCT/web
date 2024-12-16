@@ -111,19 +111,17 @@
     <GenericRow>
       <GenericContainer>
         <HomeSection title="Zo kan je bij ons een expert worden" class="">
-          <div class="col-span-9">
-            <!-- Space the parent grid out -->
-          </div>
+          <div class="col-span-9" />
 
           <BentoBox>
             <BentoItem
-              class="relative col-span-4 flex flex-col items-center justify-center bg-white"
+              class="@dark:text-neutral-900 relative col-span-4 flex flex-col items-center justify-center bg-white"
             >
               <LucideRocket class="mb-4" :size="36" />
-              <h3 class="mb-6 text-center text-4xl font-bold">
+              <h3 class="mb-6 text-center text-xl font-bold">
                 Klaar voor de toekomst.
               </h3>
-              <p class="text-lg">
+              <p class="leading-normal">
                 We bieden je een opleiding aan die je klaarstoomt voor de
                 toekomst. We leren je de nieuwste technologieën en methodes aan,
                 zodat je klaar bent om de wereld te veranderen.
@@ -131,37 +129,14 @@
             </BentoItem>
 
             <BentoItem
-              class="relative col-span-8 flex aspect-square flex-col items-center justify-center overflow-hidden text-white"
-            >
-              <img class="absolute inset-0 z-0 object-cover" src="/3.jpg" >
-              <div
-                class="absolute inset-x-0 bottom-0 z-10 h-2/3 bg-gradient-to-t from-neutral-900 to-transparent"
-              />
-
-              <LucideHandshake
-                class="animation-delay-3000 relative z-10 mb-4 mt-auto animate-bounce"
-                :size="36"
-              />
-              <h3 class="relative z-10 mb-6 text-center text-4xl font-bold">
-                Studenten = toekomstige collega’s
-              </h3>
-              <p class="relative z-10 max-w-prose text-lg leading-normal">
-                We zien studenten als toekomstige collega’s. We zijn er apetrots
-                op dat we dicht bij onze studenten staan. Ja, we zijn bereikbaar
-                via chat of via mail. Ja, we weten hoe iedereen heet en waar je
-                sterk in bent!
-              </p>
-            </BentoItem>
-
-            <BentoItem
-              class="col-span-8 grid grid-cols-[2fr_1fr] items-center gap-12 bg-neutral-800 text-white"
+              class="col-span-4 row-span-2 grid grid-cols-[2fr_1fr] items-center gap-12 bg-neutral-800 text-white"
             >
               <div class="">
                 <LucideSmilePlus class="mb-4 text-yellow-400" :size="36" />
-                <h3 class="mb-6 text-4xl font-bold">
+                <h3 class="mb-6 text-xl font-bold">
                   Ons rapport.<br >Joepie, goede punten!
                 </h3>
-                <p class="max-w-prose text-lg leading-normal">
+                <p class="max-w-prose leading-normal">
                   We krijgen jaar na jaar geweldige feedback van onze studenten
                   en bedrijven. Zowel werkpunten als goede punten nemen we ter
                   harte. We gaan iedere dag aan de slag om de beste IT’ers op de
@@ -170,7 +145,7 @@
               </div>
               <div class="flex items-center justify-center text-center">
                 <GenericCounter
-                  class="text-8xl font-bold leading-none"
+                  class="text-5xl font-bold leading-none"
                   :end-value="93"
                 />
                 <LucidePercent class="text-white" :size="48" />
@@ -178,10 +153,33 @@
             </BentoItem>
 
             <BentoItem
+              class="relative col-span-4 flex flex-col items-center justify-center overflow-hidden text-white"
+            >
+              <!-- <img class="absolute inset-0 z-0 object-cover" src="/3.jpg" > -->
+              <div
+                class="absolute inset-x-0 bottom-0 z-10 h-2/3 bg-gradient-to-t from-neutral-900 to-transparent"
+              />
+
+              <LucideHandshake
+                class="animation-delay-3000 relative z-10 mb-4 mt-auto animate-bounce"
+                :size="36"
+              />
+              <h3 class="relative z-10 mb-6 text-center text-xl font-bold">
+                Studenten = toekomstige collega’s
+              </h3>
+              <p class="relative z-10 max-w-prose leading-normal">
+                We zien studenten als toekomstige collega’s. We zijn er apetrots
+                op dat we dicht bij onze studenten staan. Ja, we zijn bereikbaar
+                via chat of via mail. Ja, we weten hoe iedereen heet en waar je
+                sterk in bent!
+              </p>
+            </BentoItem>
+
+            <BentoItem
               class="from-mct-400 to-mct-600 col-span-4 flex flex-col items-center justify-center bg-gradient-to-r text-white"
             >
               <LucideScale class="mb-4" :size="36" />
-              <h3 class="mb-6 text-center text-4xl font-bold">
+              <h3 class="mb-6 text-center text-xl font-bold">
                 Praktijk vs theorie
               </h3>
               <p class="max-w-prose text-lg leading-normal">
@@ -191,6 +189,20 @@
               </p>
             </BentoItem>
           </BentoBox>
+
+          <BentoItem class="col-span-4 bg-neutral-800 text-white">
+            <LucideTarget class="mb-4" :size="36" />
+            <h3 class="mb-6 text-xl font-bold">
+              Les aanbod met focus. Op nieuwe technologie.
+            </h3>
+
+            <RouterLink
+              to="/programma"
+              class="flex items-center text-base font-semibold hover:underline"
+            >
+              Bekijk het programma <LucideChevronRight />
+            </RouterLink>
+          </BentoItem>
         </HomeSection>
       </GenericContainer>
     </GenericRow>
@@ -211,7 +223,7 @@
               <button><LucideArrowRight /></button>
             </nav>
 
-            <p class="leading-noal break-words text-lg">
+            <p class="break-words-all text-lg leading-normal">
               We zijn trots op onze internationale samenwerkingen met bedrijven
               en scholen over de hele wereld. We zijn er van overtuigd dat je
               door samen te werken met mensen van over de hele wereld een betere
@@ -219,6 +231,12 @@
             </p>
           </div>
         </HomeSection>
+      </GenericContainer>
+    </GenericRow>
+
+    <GenericRow>
+      <GenericContainer>
+        <HomeSection title="Programma. Wat je gaat doen." class="" />
       </GenericContainer>
     </GenericRow>
   </div>
