@@ -129,26 +129,32 @@
             </BentoItem>
 
             <BentoItem
-              class="col-span-4 row-span-2 grid grid-cols-[2fr_1fr] items-center gap-12 bg-neutral-800 text-white"
+              class="col-span-4 row-span-2 flex flex-col items-center justify-center gap-12 bg-neutral-800 text-white"
             >
-              <div class="">
+              <div class="flex flex-col items-center justify-center">
                 <LucideSmilePlus class="mb-4 text-yellow-400" :size="36" />
-                <h3 class="mb-6 text-xl font-bold">
+                <h3 class="mb-6 text-center text-xl font-bold">
                   Ons rapport.<br >Joepie, goede punten!
                 </h3>
-                <p class="max-w-prose leading-normal">
-                  We krijgen jaar na jaar geweldige feedback van onze studenten
-                  en bedrijven. Zowel werkpunten als goede punten nemen we ter
-                  harte. We gaan iedere dag aan de slag om de beste IT’ers op de
-                  markt te zetten!
-                </p>
               </div>
-              <div class="flex items-center justify-center text-center">
-                <GenericCounter
-                  class="text-5xl font-bold leading-none"
-                  :end-value="93"
-                />
-                <LucidePercent class="text-white" :size="48" />
+              <p class="max-w-prose leading-normal">
+                We krijgen jaar na jaar geweldige feedback van onze studenten en
+                bedrijven. Zowel werkpunten als goede punten nemen we ter harte.
+                We gaan iedere dag aan de slag om de beste IT’ers op de markt te
+                zetten!
+              </p>
+
+              <div class="flex flex-col items-center">
+                <div class="mb-3 flex items-center justify-center text-center">
+                  <GenericCounter
+                    class="text-5xl font-bold leading-none"
+                    :end-value="93"
+                  />
+                  <LucidePercent class="text-white" :size="48" />
+                </div>
+                <p class="text-sm opacity-50">
+                  Van afgestudeerden vindt meteen een job.
+                </p>
               </div>
             </BentoItem>
 
@@ -182,7 +188,7 @@
               <h3 class="mb-6 text-center text-xl font-bold">
                 Praktijk vs theorie
               </h3>
-              <p class="max-w-prose text-lg leading-normal">
+              <p class="max-w-prose leading-normal">
                 Theorie is belangrijk...! Om de praktijk goed uit te voeren. We
                 willen voldoende theorie meegeven om aan de slag te kunnen met
                 onze praktijkgerichte labo’s.
@@ -190,11 +196,18 @@
             </BentoItem>
           </BentoBox>
 
-          <BentoItem class="col-span-4 bg-neutral-800 text-white">
+          <BentoItem
+            class="col-span-4 flex flex-col items-center justify-center bg-neutral-800 text-white"
+          >
             <LucideTarget class="mb-4" :size="36" />
-            <h3 class="mb-6 text-xl font-bold">
-              Les aanbod met focus. Op nieuwe technologie.
+            <h3 class="mb-6 text-center text-xl font-bold">
+              Les aanbod met focus.<br >Vol nieuwe technologie.
             </h3>
+            <p class="max-w-prose leading-normal">
+              Bij ons kies je voor een beperkt aantal modules per semester met
+              voldoende uren zodat je de ruimte krijgt om je voldoende te
+              focussen en te verdiepen op de kern.
+            </p>
 
             <RouterLink
               to="/programma"
