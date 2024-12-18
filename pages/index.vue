@@ -163,7 +163,7 @@
             >
               <!-- <img class="absolute inset-0 z-0 object-cover" src="/3.jpg" > -->
               <div
-                class="absolute inset-x-0 bottom-0 z-10 h-2/3 bg-gradient-to-t from-neutral-900 to-transparent"
+                class="absolute inset-0 z-10 bg-gradient-to-tr from-neutral-900 to-neutral-100"
               />
 
               <LucideHandshake
@@ -174,8 +174,8 @@
                 Studenten = toekomstige collega’s
               </h3>
               <p class="relative z-10 max-w-prose leading-normal">
-                We zien studenten als toekomstige collega’s. We zijn er apetrots
-                op dat we dicht bij onze studenten staan. Ja, we zijn bereikbaar
+                We zien studenten als toekomstige collega’s. We zijn er trots op
+                dat we dicht bij onze studenten staan. Ja, we zijn bereikbaar
                 via chat of via mail. Ja, we weten hoe iedereen heet en waar je
                 sterk in bent!
               </p>
