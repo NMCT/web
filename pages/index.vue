@@ -249,7 +249,12 @@
 
     <GenericRow>
       <GenericContainer>
-        <HomeSection title="Programma. Wat je gaat doen." class="" />
+        <HomeSection title="Programma. Wat je gaat doen." class="">
+          <p class="col-span-9">
+            Overzicht van de verschillende keuzes die je kan maken in het
+            programma.
+          </p>
+        </HomeSection>
       </GenericContainer>
     </GenericRow>
   </div>
