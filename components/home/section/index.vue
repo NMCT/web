@@ -1,6 +1,6 @@
 <template>
   <div class="grid grid-cols-12 gap-6 py-52">
-    <HomeSectionTitle class="col-span-3">{{ title }}</HomeSectionTitle>
+    <HomeSectionTitle class="col-span-12">{{ title }}</HomeSectionTitle>
 
     <slot />
   </div>
