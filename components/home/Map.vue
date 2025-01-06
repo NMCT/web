@@ -1,5 +1,5 @@
 <template>
-  <div ref="mapElement" />
+  <div ref="mapElement" class="bg-neutral-800" />
 </template>
 
 <script lang="ts" setup>

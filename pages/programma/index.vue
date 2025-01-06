@@ -94,7 +94,7 @@
         <div class="grid grid-flow-dense grid-cols-6 grid-rows-10 gap-4">
           <CurriculumDetail
             v-for="module in modules"
-            :key="module._path"
+            :key="module.stem"
             :module="module"
           />
         </div>
@@ -105,23 +105,44 @@
 
 <script lang="ts" setup>
 import { ref } from 'vue'
+// import type {
+//   ContentQueryResponse,
+//   ProgrammaCollectionItem,
+// } from '@nuxt/content'
 
-const modules = ref([])
+const modules = ref()
 const selected = ref<string>('next-web-developer')
 
+// const { data } = await useAsyncData(() =>
+//   queryCollection('programma').order('weight', 'DESC').all(),
+// )
+
+// console.log(data)
+
 const getModulesFiltered = async () => {
-  modules.value = await queryContent('programma')
-    .where({
-      $and: [
-        { weight: { $exists: true } },
-        { tracks: { $exists: true } },
-        { tracks: { $in: selected.value } },
-      ],
-    })
-    .sort({ weight: 1, $numeric: true })
-    .sort({ semester: 1, $numeric: true })
-    .without(['aliases', 'tags', 'tools'])
-    .find()
+  modules.value = await queryCollection('programma')
+    // .where('tracks', 'IN', [selected.value])
+    .where('weight', 'IS NOT NULL')
+    // .andWhere((query) =>
+    //   query
+    //     .where('tracks', 'IS NOT NULL')
+    //     .andWhere((query) => query.where('tracks', 'IN', [selected.value])),
+    // )
+    // .andWhere((query) => query.where('tracks', 'IN', [selected.value]))
+    .order('weight', 'ASC')
+    .order('semester', 'ASC')
+    .select(
+      'title',
+      'semester',
+      'studycredits',
+      'weight',
+      'pillar',
+      'tracks',
+      'stem',
+    )
+    .all()
+
+  console.log(modules.value)
 }
 
 getModulesFiltered()

@@ -40,12 +40,4 @@ export default defineNuxtConfig({
       fix: true,
     },
   },
-
-  fonts: {
-    google: {
-      families: [
-        'Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap',
-      ],
-    },
-  },
 })

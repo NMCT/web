@@ -10,9 +10,6 @@
       <slot name="text" />
     </div>
 
-    <!-- <div class="col-span-2 text-sm leading-relaxed tracking-wide">
-      <slot name="floating" />
-    </div> -->
     <slot />
   </div>
 </template>

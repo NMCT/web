@@ -1,5 +1,5 @@
 <template>
-  <GenericRow class="py-24">
+  <GenericRow class="py-12">
     <GenericContainer>
       <div class="gap- grid grid-cols-12 items-center">
         <NuxtLink to="/" class="col-span-9">

@@ -6,7 +6,7 @@
       props.module.tracks &&
       props.module.tracks.map((track: string) => ` js-track-${track}`).join(``)
     } bg-${props.module.pillar}-100 @dark:bg-${props.module.pillar}-800 @dark:text-neutral-100 text-neutral-900`"
-    :to="`${props.module._path}`"
+    :to="`${props.module.stem}`"
   >
     <!-- <span
       :class="`bg-${props.module.pillar}-500 rounded-2xl px-3 py-1 text-sm text-white`"
@@ -18,9 +18,11 @@
 </template>
 
 <script lang="ts" setup>
+import type { ProgrammaCollectionItem } from '@nuxt/content'
+
 const props = defineProps({
   module: {
-    type: Object,
+    type: Object as () => ProgrammaCollectionItem,
     required: true,
   },
 })
