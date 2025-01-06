@@ -229,11 +229,11 @@
         </div>
 
         <HomeSection title="Internationaal" class="relative py-96 text-white">
-          <div class="relative z-10 col-span-3">
+          <div class="relative z-10 col-span-4">
             <nav class="mb-3 flex items-center gap-3">
-              <button><LucideArrowLeft /></button>
+              <button><LucideMoveLeft /></button>
               <p class="font-bold tracking-wide">Intro</p>
-              <button><LucideArrowRight /></button>
+              <button><LucideMoveRight /></button>
             </nav>
 
             <p class="break-words-all text-lg leading-normal">

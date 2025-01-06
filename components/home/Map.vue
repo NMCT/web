@@ -3,7 +3,7 @@
 </template>
 
 <script lang="ts" setup>
-import type { Popup } from 'mapbox-gl';
+import type { Popup } from 'mapbox-gl'
 import mapboxgl, { Map } from 'mapbox-gl'
 import 'mapbox-gl/dist/mapbox-gl.css'
 
@@ -14,7 +14,7 @@ mapboxgl.accessToken = runtimeConfig.public.mapboxToken ?? ''
 
 const mapElement = ref<HTMLElement | null>(null)
 const map = ref<Map>()
-const popups: Ref<Popup[]> = ref([])
+// const popups: Ref<Popup[]> = ref([])
 
 onMounted(() => {
   if (!mapElement.value) return
