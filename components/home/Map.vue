@@ -3,7 +3,8 @@
 </template>
 
 <script lang="ts" setup>
-import mapboxgl, { Map, Popup } from 'mapbox-gl'
+import type { Popup } from 'mapbox-gl';
+import mapboxgl, { Map } from 'mapbox-gl'
 import 'mapbox-gl/dist/mapbox-gl.css'
 
 const runtimeConfig = useRuntimeConfig()
@@ -44,13 +45,13 @@ onMounted(() => {
   })
 
   // Add some random markers
-  for (let i = 0; i < 10; i++) {
-    const marker = new Popup()
-      .setLngLat([Math.random() * 360 - 180, Math.random() * 180 - 90])
-      .addClassName('rounded-2xl!')
-      .setHTML(`<h1 class="text-neutral-800">Home</h1>`)
-      .addTo(map.value)
-    popups.value.push(marker)
-  }
+  // for (let i = 0; i < 10; i++) {
+  //   const marker = new Popup()
+  //     .setLngLat([Math.random() * 360 - 180, Math.random() * 180 - 90])
+  //     .addClassName('rounded-2xl!')
+  //     .setHTML(`<h1 class="text-neutral-800">Home</h1>`)
+  //     .addTo(map.value)
+  //   popups.value.push(marker)
+  // }
 })
 </script>
