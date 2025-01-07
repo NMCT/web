@@ -3,7 +3,7 @@
     <GenericRow>
       <GenericContainer>
         <article v-if="doc">
-          <h1 class="mb-6 text-6xl font-semibold">{{ doc.title }}</h1>
+          <h1 class="mb-12 text-6xl font-semibold">{{ doc.title }}</h1>
 
           <ContentRenderer class="max-w-prose leading-loose" :value="doc" />
         </article>

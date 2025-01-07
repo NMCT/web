@@ -1,7 +1,7 @@
 <template>
   <div class="mb-32 grid grid-cols-12 items-center gap-6 px-24">
     <h1
-      class="pt-18 col-span-12 pb-8 text-center text-8xl font-semibold leading-tight"
+      class="pt-18 col-span-12 pb-8 text-center text-6xl font-semibold leading-tight"
     >
       {{ title }}
     </h1>
