@@ -14,6 +14,7 @@
     "@nuxt/eslint": "^0.7.4",
     "@nuxt/fonts": "^0.10.3",
     "@unocss/reset": "^0.65.3",
+    "@vueuse/motion": "^2.2.6",
     "mapbox-gl": "^3.9.2",
     "nuxt": "^3.15.1",
     "nuxt-lucide-icons": "^1.0.5",

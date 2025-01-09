@@ -81,7 +81,7 @@
 
     <GenericRow>
       <GenericContainer>
-        <div class="grid grid-cols-12 gap-6 py-52">
+        <div class="grid grid-cols-12 gap-6">
           <div class="col-span-6">
             <HomeSectionTitle class="mb-12">
               Cutting edge: niet scherp
@@ -94,9 +94,9 @@
           </div>
 
           <div class="col-span-6">
-            <HomeSectionTitle class="mb-12"
-              >Projecten: met échte klanten</HomeSectionTitle
-            >
+            <HomeSectionTitle class="mb-12">
+              Projecten: met échte klanten
+            </HomeSectionTitle>
             <p class="leading-noal max-w-prose text-lg">
               Door een goede opbouw van verschillende projecten doorheen je
               opleiding, leren we je aan de slag gaan. Met echte klanten,
@@ -113,112 +113,118 @@
         <HomeSection title="Zo kan je bij ons een expert worden" class="">
           <div class="col-span-9" />
 
-          <BentoBox>
-            <BentoItem
-              class="@dark:text-neutral-900 relative col-span-4 flex flex-col items-center justify-center bg-white"
-            >
-              <LucideRocket class="mb-4" :size="36" />
-              <h3 class="mb-6 text-center text-xl font-bold">
-                Klaar voor de toekomst.
-              </h3>
-              <p class="leading-normal">
-                We bieden je een opleiding aan die je klaarstoomt voor de
-                toekomst. We leren je de nieuwste technologieën en methodes aan,
-                zodat je klaar bent om de wereld te veranderen.
-              </p>
-            </BentoItem>
-
-            <BentoItem
-              class="col-span-4 row-span-2 flex flex-col items-center justify-center gap-12 bg-neutral-800 text-white"
-            >
-              <div class="flex flex-col items-center justify-center">
-                <LucideSmilePlus class="mb-4 text-yellow-400" :size="36" />
+          <MotionGroup preset="slideVisibleLeft" :duration="600">
+            <BentoBox>
+              <BentoItem
+                class="@dark:text-neutral-900 relative col-span-4 flex flex-col items-center justify-center bg-white"
+              >
+                <LucideRocket class="mb-4" :size="36" />
                 <h3 class="mb-6 text-center text-xl font-bold">
-                  Ons rapport.<br >Joepie, goede punten!
+                  Klaar voor de toekomst.
                 </h3>
-              </div>
-              <p class="max-w-prose leading-normal">
-                We krijgen jaar na jaar geweldige feedback van onze studenten en
-                bedrijven. Zowel werkpunten als goede punten nemen we ter harte.
-                We gaan iedere dag aan de slag om de beste IT’ers op de markt te
-                zetten!
-              </p>
-
-              <div class="flex flex-col items-center">
-                <div class="mb-3 flex items-center justify-center text-center">
-                  <GenericCounter
-                    class="text-5xl font-bold leading-none"
-                    :end-value="93"
-                  />
-                  <LucidePercent class="text-white" :size="48" />
-                </div>
-                <p class="text-sm opacity-50">
-                  Van afgestudeerden vindt meteen een job.
+                <p class="leading-normal">
+                  We bieden je een opleiding aan die je klaarstoomt voor de
+                  toekomst. We leren je de nieuwste technologieën en methodes
+                  aan, zodat je klaar bent om de wereld te veranderen.
                 </p>
-              </div>
-            </BentoItem>
+              </BentoItem>
+
+              <BentoItem
+                class="col-span-4 row-span-2 flex flex-col items-center justify-center gap-12 bg-neutral-800 text-white"
+              >
+                <div class="flex flex-col items-center justify-center">
+                  <LucideSmilePlus class="mb-4 text-yellow-400" :size="36" />
+                  <h3 class="mb-6 text-center text-xl font-bold">
+                    Ons rapport.<br >Joepie, goede punten!
+                  </h3>
+                </div>
+                <p class="max-w-prose leading-normal">
+                  We krijgen jaar na jaar geweldige feedback van onze studenten
+                  en bedrijven. Zowel werkpunten als goede punten nemen we ter
+                  harte. We gaan iedere dag aan de slag om de beste IT’ers op de
+                  markt te zetten!
+                </p>
+
+                <div class="flex flex-col items-center">
+                  <div
+                    class="mb-3 flex items-center justify-center text-center"
+                  >
+                    <GenericCounter
+                      class="text-5xl font-bold leading-none"
+                      :end-value="93"
+                    />
+                    <LucidePercent class="text-white" :size="48" />
+                  </div>
+                  <p class="text-sm opacity-50">
+                    Van afgestudeerden vindt meteen een job.
+                  </p>
+                </div>
+              </BentoItem>
+
+              <BentoItem
+                class="relative col-span-4 flex flex-col items-center justify-center overflow-hidden text-white"
+              >
+                <!-- <img class="absolute inset-0 z-0 object-cover" src="/3.jpg" > -->
+                <div
+                  class="absolute inset-0 z-10 bg-gradient-to-tr from-neutral-900 to-neutral-100"
+                />
+
+                <LucideHandshake
+                  class="animation-delay-3000 relative z-10 mb-4 mt-auto animate-bounce"
+                  :size="36"
+                />
+                <h3 class="relative z-10 mb-6 text-center text-xl font-bold">
+                  Studenten = toekomstige collega’s
+                </h3>
+                <p class="relative z-10 max-w-prose leading-normal">
+                  We zien studenten als toekomstige collega’s. We zijn er trots
+                  op dat we dicht bij onze studenten staan. Ja, we zijn
+                  bereikbaar via chat of via mail. Ja, we weten hoe iedereen
+                  heet en waar je sterk in bent!
+                </p>
+              </BentoItem>
+
+              <BentoItem
+                class="from-mct-400 to-mct-600 col-span-4 flex flex-col items-center justify-center bg-gradient-to-r text-white"
+              >
+                <LucideScale class="mb-4" :size="36" />
+                <h3 class="mb-6 text-center text-xl font-bold">
+                  Praktijk vs theorie
+                </h3>
+                <p class="max-w-prose leading-normal">
+                  Theorie is belangrijk...! Om de praktijk goed uit te voeren.
+                  We willen voldoende theorie meegeven om aan de slag te kunnen
+                  met onze praktijkgerichte labo’s.
+                </p>
+              </BentoItem>
+            </BentoBox>
 
             <BentoItem
-              class="relative col-span-4 flex flex-col items-center justify-center overflow-hidden text-white"
+              class="col-span-4 flex flex-col items-center justify-center bg-neutral-800 text-white"
             >
-              <!-- <img class="absolute inset-0 z-0 object-cover" src="/3.jpg" > -->
-              <div
-                class="absolute inset-0 z-10 bg-gradient-to-tr from-neutral-900 to-neutral-100"
-              />
-
-              <LucideHandshake
-                class="animation-delay-3000 relative z-10 mb-4 mt-auto animate-bounce"
-                :size="36"
-              />
-              <h3 class="relative z-10 mb-6 text-center text-xl font-bold">
-                Studenten = toekomstige collega’s
-              </h3>
-              <p class="relative z-10 max-w-prose leading-normal">
-                We zien studenten als toekomstige collega’s. We zijn er trots op
-                dat we dicht bij onze studenten staan. Ja, we zijn bereikbaar
-                via chat of via mail. Ja, we weten hoe iedereen heet en waar je
-                sterk in bent!
-              </p>
-            </BentoItem>
-
-            <BentoItem
-              class="from-mct-400 to-mct-600 col-span-4 flex flex-col items-center justify-center bg-gradient-to-r text-white"
-            >
-              <LucideScale class="mb-4" :size="36" />
+              <LucideTarget class="mb-4" :size="36" />
               <h3 class="mb-6 text-center text-xl font-bold">
-                Praktijk vs theorie
+                Les aanbod met focus.<br >Vol nieuwe technologie.
               </h3>
               <p class="max-w-prose leading-normal">
-                Theorie is belangrijk...! Om de praktijk goed uit te voeren. We
-                willen voldoende theorie meegeven om aan de slag te kunnen met
-                onze praktijkgerichte labo’s.
+                Bij ons kies je voor een beperkt aantal modules per semester met
+                voldoende uren zodat je de ruimte krijgt om je voldoende te
+                focussen en te verdiepen op de kern.
               </p>
+
+              <RouterLink
+                to="/programma"
+                class="flex items-center text-base font-semibold hover:underline"
+              >
+                Bekijk het programma <LucideChevronRight />
+              </RouterLink>
             </BentoItem>
-          </BentoBox>
-
-          <BentoItem
-            class="col-span-4 flex flex-col items-center justify-center bg-neutral-800 text-white"
-          >
-            <LucideTarget class="mb-4" :size="36" />
-            <h3 class="mb-6 text-center text-xl font-bold">
-              Les aanbod met focus.<br >Vol nieuwe technologie.
-            </h3>
-            <p class="max-w-prose leading-normal">
-              Bij ons kies je voor een beperkt aantal modules per semester met
-              voldoende uren zodat je de ruimte krijgt om je voldoende te
-              focussen en te verdiepen op de kern.
-            </p>
-
-            <RouterLink
-              to="/programma"
-              class="flex items-center text-base font-semibold hover:underline"
-            >
-              Bekijk het programma <LucideChevronRight />
-            </RouterLink>
-          </BentoItem>
+          </MotionGroup>
         </HomeSection>
       </GenericContainer>
     </GenericRow>
+
+    <StudentworkSlider />
 
     <GenericRow class="relative">
       <GenericContainer>
