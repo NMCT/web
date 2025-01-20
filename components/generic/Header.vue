@@ -3,7 +3,7 @@
     <GenericContainer>
       <div class="gap- grid grid-cols-12 items-center">
         <NuxtLink to="/" class="col-span-9">
-          <GenericLogo class="h-8" />
+          <GenericLogo class="h-26" />
         </NuxtLink>
 
         <GenericNavigation class="col-span-3" />
